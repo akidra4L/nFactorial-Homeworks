@@ -1,0 +1,25 @@
+.main-aside {
+    width: 20%;
+    background-color: grey;
+    height: 92vh;
+}
+
+.main-section {
+    height: 90vh;
+}
+
+.main-title {
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+}
+
+.main-form {
+    height: 40vh;
+    width: 100%;
+}
+
+.main-output {
+    height: 40vh;
+    width: 100%;
+}
