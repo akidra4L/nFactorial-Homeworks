@@ -5,7 +5,7 @@ $('document').ready(function() {
         let verb = $('#verb').val();
         let adjective = $('#adjective').val();
         if(!!name && !!character && !!verb && !!adjective){
-            $('#output').html('Once ' + name + ' came to nFactorial Incubator, and noticed that Murat was ' + character + '. This very minute, ' + name + ' was ' + verb + ' because Dalida learned HTML/CSS and was ' + adjective + '.');
+            $('#output').html('Once ' + name + ' came to nFactorial Incubator, and noticed that Murat was ' + character + '. This very minute, ' + name + ' started to ' + verb + ' because Dalida learned HTML/CSS very ' + adjective + '.');
         } else {
             $('#output').html('Please fill in the blanks at the top!!!');
         }

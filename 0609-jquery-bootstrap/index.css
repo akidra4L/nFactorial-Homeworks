@@ -2,6 +2,7 @@
     width: 20%;
     background-color: grey;
     height: 92vh;
+    border: 3px solid lightblue;
 }
 
 .main-section {
@@ -12,14 +13,20 @@
     height: 10vh;
     width: 100%;
     text-align: center;
+    border: 3px solid lightblue;
 }
 
 .main-form {
     height: 40vh;
     width: 100%;
+    border: 3px solid lightblue;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .main-output {
     height: 40vh;
-    width: 100%;
+    width: 60vw;
+    border: 3px solid lightblue;
+    margin-top: 10px;
 }
