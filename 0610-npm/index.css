@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-block {
+    display: flex;
+}
+
+.left-block {
+    width: 18vw;
+    height: 80vh;
+    background-color: rgb(31, 29, 29);
+    z-index: 100;
+}
+#left-block p {
+    color: rgb(255, 255, 255);
+}
+
+.left-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 300px;
+    margin: 15px 0 0 10px;
+}
+.left-buttons button {
+    all: unset;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: gray;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: white;
+}
+
+.left-buttons button:focus {
+    border-color: aqua;
+    background-color: blueviolet;
+}
+
+#dalida {
+    width: 165px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 15px;
+    background-color: green;
+    padding-bottom: 25px;
+    margin: 25px 0 0 10px;
+}
+#dalida p {
+    margin: 0;
+}
+
+#center-block {
+    width: 85vw;
+    height: 80vh;
+    color: white;
+}
+
+#video {
+    background-color: rgb(107, 107, 107);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#music-player {
+    background-color: rgb(76, 74, 74);
+    height: 20vh;
+    color: white;
+    border-top-style: solid;
+    border-color: rgb(173, 173, 173);
+    border-top-width: 0.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#bottom-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#image {
+    --size: 4.5em;
+    flex-shrink: 0;
+    width: var(--size);
+    height: var(--size);
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+#image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#artist {
+    opacity: 0.4;
+}
+#song-description p {
+    margin-bottom: 0;
+}
+
+#btn-change-background {
+    margin-left: 30px;
+}
+
+.flex-column {
+    margin-top: 40px;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.notify{
+    border: 2px solid red;
+}
+
+@media screen and (max-width: 400px){
+    #left-block{
+        width: 35%;
+    }
+
+    #left-buttons button{
+        padding: 5px;
+        font-size: 12px;
+        width: 70px;
+    }
+}
+
+.light {
+    background-color: rgb(208, 196, 196);
+}
+
+.dark {
+    background-color: rgb(31, 29, 29);
+}
