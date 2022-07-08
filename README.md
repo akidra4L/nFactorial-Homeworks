@@ -6,3 +6,5 @@ Homeworks:
 - DOM, Events
 - jQuery
 - Bootstrap
+
+Please, check branches. 
